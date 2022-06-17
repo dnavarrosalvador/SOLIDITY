@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkFailure",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSenderAndValue",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSuccess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSuccess2",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"beforeAll()": {
+					"notice": "'beforeAll' runs before all other tests More special functions are: 'beforeEach', 'beforeAll', 'afterEach' & 'afterAll'"
+				},
+				"checkSenderAndValue()": {
+					"notice": "Custom Transaction Context: https://remix-ide.readthedocs.io/en/latest/unittesting.html#customization #sender: account-1 #value: 100"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/calculadora_test.sol": "testSuite"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/calculadora.sol": {
+			"keccak256": "0x066392090fc5a8775c8e510e1e7bc647ffd450c8e69579034ed0a0d95a058309",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c3ccc172ce0d111135f469518943f9b41f933acf1d0c4cf50c171bca817fc4c1",
+				"dweb:/ipfs/QmXT99AxxRt58A4Nb63VAaUGgk7eGSErTFHd9iQg3ehxqQ"
+			]
+		},
+		"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/calculadora_test.sol": {
+			"keccak256": "0x194d76a192de7211e128d292bb9a1bd3cddea82bf20891865761e5c8632ec572",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be7d06b936b3a5309089f96cf0fdc5e70048f98963b0409aeb5152e4d07b9f08",
+				"dweb:/ipfs/Qmbx17i3VeKJgigPS4Z1TRQ1u9jLkrDzGURbubABM8ZnXM"
+			]
+		},
+		"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/libmates.sol": {
+			"keccak256": "0xc9f978611105a193a76bf1c73786b4b44fc6277f5b34b88a8a1605db679178c7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://27b4aeb3468bbd8aca0133b47d88ff035fb1261ecfb85ea6fc12c1d6a1d020a4",
+				"dweb:/ipfs/QmQXicPNTqbD3vmSHvtCxrKihFiaqGDsqy9maQg6sw9ogN"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0x198a94b8e0342a81c31fda8ba387964155802ef81807e01e83e2320682dce327",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://db7d9939731e6fe2030d53b80f57ce2c1f8044209c1c67e634e81160227d3019",
+				"dweb:/ipfs/QmRLYhZ2Y6bfh83QSD2hCnhVFejevzh77zUTohCCC8yCtu"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		}
+	},
+	"version": 1
+}

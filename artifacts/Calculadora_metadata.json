@@ -1,0 +1,226 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					}
+				],
+				"name": "cuadrado",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "division",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "factorial",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "multiplicacion",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int128",
+						"name": "a",
+						"type": "int128"
+					}
+				],
+				"name": "raizCuadrada",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "resta",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "suma",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					}
+				],
+				"name": "valorAbsoluto",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/calculadora.sol": "Calculadora"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/calculadora.sol": {
+			"keccak256": "0x066392090fc5a8775c8e510e1e7bc647ffd450c8e69579034ed0a0d95a058309",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c3ccc172ce0d111135f469518943f9b41f933acf1d0c4cf50c171bca817fc4c1",
+				"dweb:/ipfs/QmXT99AxxRt58A4Nb63VAaUGgk7eGSErTFHd9iQg3ehxqQ"
+			]
+		},
+		"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/libmates.sol": {
+			"keccak256": "0xc9f978611105a193a76bf1c73786b4b44fc6277f5b34b88a8a1605db679178c7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://27b4aeb3468bbd8aca0133b47d88ff035fb1261ecfb85ea6fc12c1d6a1d020a4",
+				"dweb:/ipfs/QmQXicPNTqbD3vmSHvtCxrKihFiaqGDsqy9maQg6sw9ogN"
+			]
+		}
+	},
+	"version": 1
+}

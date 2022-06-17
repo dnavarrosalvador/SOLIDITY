@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSuccess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"beforeAll()": {
+					"notice": "'beforeAll' runs before all other tests More special functions are: 'beforeEach', 'beforeAll', 'afterEach' & 'afterAll'"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/calculadora_test.sol": "TestCalc"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/calculadora.sol": {
+			"keccak256": "0x066392090fc5a8775c8e510e1e7bc647ffd450c8e69579034ed0a0d95a058309",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c3ccc172ce0d111135f469518943f9b41f933acf1d0c4cf50c171bca817fc4c1",
+				"dweb:/ipfs/QmXT99AxxRt58A4Nb63VAaUGgk7eGSErTFHd9iQg3ehxqQ"
+			]
+		},
+		"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/calculadora_test.sol": {
+			"keccak256": "0x6f0ea82fa0340e5301f5f67fdf94ed1b0864214800fe4aab9304defb70bba636",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c88134e77152e22375bf90d32f23cb783769488f9470c3341d10667d3bc6d507",
+				"dweb:/ipfs/Qmb6V2k5N68vH9iEzM8idZDdc9PumsEJCM52Pka9pbWqYD"
+			]
+		},
+		"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/libmates.sol": {
+			"keccak256": "0xc9f978611105a193a76bf1c73786b4b44fc6277f5b34b88a8a1605db679178c7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://27b4aeb3468bbd8aca0133b47d88ff035fb1261ecfb85ea6fc12c1d6a1d020a4",
+				"dweb:/ipfs/QmQXicPNTqbD3vmSHvtCxrKihFiaqGDsqy9maQg6sw9ogN"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		}
+	},
+	"version": 1
+}

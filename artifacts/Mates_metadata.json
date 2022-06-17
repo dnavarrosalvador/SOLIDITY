@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/libmates.sol": "Mates"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Documents/GitHub/SOLIDITY-REMIX/5ef069451e67668750287d64bc5f8bae/libmates.sol": {
+			"keccak256": "0xc9f978611105a193a76bf1c73786b4b44fc6277f5b34b88a8a1605db679178c7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://27b4aeb3468bbd8aca0133b47d88ff035fb1261ecfb85ea6fc12c1d6a1d020a4",
+				"dweb:/ipfs/QmQXicPNTqbD3vmSHvtCxrKihFiaqGDsqy9maQg6sw9ogN"
+			]
+		}
+	},
+	"version": 1
+}
